@@ -1,6 +1,9 @@
 # Project2020 - 홍길동
 ## 04월14일 멀티미디어 태그 연습
 > img tag 연습 <br>
+audio tag 연습 <br>
+video tag 연습 <br>
+유튜브 동영상 삽입 숙제
 
 ## 04월 05일 실습내용
 > css적용방식 <br>
