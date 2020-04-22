@@ -51,6 +51,12 @@ ul li a {
   background-color: rgb(121, 82, 0);
   text-align: center;
 }
+.article-bg4 {
+  height: 400px;
+  padding: 15px;
+  background-color: rgb(104, 104, 175);
+  text-align: center;
+}
 
 /* box model test */
 .box1 {
