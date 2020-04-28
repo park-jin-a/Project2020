@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="./vendor/normalize.css">
   <!-- CSS의 외부 적용 방식 -->
   <link rel="stylesheet" href="main.css">
+  <!-- 구글 웹폰트 삽입 -->
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <header>홍길동의 홈페이지</header>
@@ -70,10 +73,10 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/cEvUDZLIHes" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
   </article>
-  <article class="article-bg4">
+  <article class="article-bg5">
     <h1>4월20일 테이블 연습</h1>
     <section>
-      <table>
+      <table class="table-style1">
         <caption>프런트앤드 개발자</caption>
         <thead>
           <tr>
@@ -101,6 +104,45 @@
         <tfoot>
           <tr>
             <td colspan="3">테이블 연습</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section>
+      <h2>4월24일 : 테이블 과제</h2>
+      <table class="table-style2">
+        <thead>
+          <tr>
+            <th colspan="4">테이블 연습</th>
+          </tr>
+          <tr>
+            <th colspan="4">thead 테그 영역</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th rowspan="4" class="jool">줄합치기</th>
+            <th colspan="3">칸합치기</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">tfoot테그</td>
           </tr>
         </tfoot>
       </table>
