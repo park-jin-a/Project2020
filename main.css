@@ -1,10 +1,10 @@
 /*
- * File Name: index.html v0.6.0
- * Update: 2020.04.14
+ * File Name: index.html v0.7.0
+ * Update: 2020.04.28
  * Author: developern
  */
 
-/* logo */
+ /* logo */
 .logo {
   color: rgb(159, 185, 255);
   font-size: 20px;
@@ -27,7 +27,8 @@ ul li {
 }
 ul li a {
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -58,9 +59,9 @@ ul li a {
   text-align: center;
 }
 .article-bg5 {
-  height: 400px;
+  height: 800px;
   padding: 15px;
-  background-color: rgb(0, 129, 65);
+  background-color: rgb(107, 107, 107);
   text-align: center;
 }
 
@@ -142,4 +143,14 @@ td {
 }
 caption {
     caption-side: bottom;
+}
+.table-style1 {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+.table-style2 {
+  width: 500px;
+  height: 350px;
+  margin: auto;
 }
