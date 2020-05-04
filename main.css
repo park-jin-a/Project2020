@@ -1,17 +1,23 @@
 /*
- * File Name: index.html v0.8.1
+ * File Name: index.html v0.8.2
  * Update: 2020.04.28
  * Author: developern
  */
 
  /* logo */
 .logo {
+  margin-right: 35px;
   color: rgb(159, 185, 255);
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
 }
-
+/* header - full screen background */
+.full-bg {
+  background: url(./images/kids-1093758_640.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
 /* main mune */
 ul {
   width: 100%;
@@ -23,12 +29,13 @@ ul {
 } 
 ul li {
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
+  vertical-align: middle;
 }
 ul li a {
   color: rgb(255, 255, 255);
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 30px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
 }
